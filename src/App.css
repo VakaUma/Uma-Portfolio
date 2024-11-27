@@ -195,7 +195,6 @@ body {
   margin-bottom: 20px;
 }
 .title {
-
   white-space: nowrap;
   overflow: hidden;
   border-right: 0.15em solid rgb(5, 5, 5);
@@ -211,6 +210,24 @@ body {
   from, to { border-color: transparent; }
   50% { border-color: rgb(2, 2, 2); }
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+    border-right: 0.1em solid rgb(5, 5, 5); /* Adjust border thickness */
+    animation: typing 5s steps(120, end), blink-caret 0.75s step-end infinite; /* Adjust animation timing */
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.2em; /* Further adjust font size for even smaller screens */
+    border-right: 0.08em solid rgb(5, 5, 5); /* Adjust border thickness */
+    animation: typing 4s steps(100, end), blink-caret 0.65s step-end infinite; /* Adjust animation timing */
+  }
+}
+
 
 
 .highlight {

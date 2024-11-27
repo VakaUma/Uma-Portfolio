@@ -279,7 +279,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-logo">
-          <h2 className="footer-title">Sati<span style={{ color: '#FF007F' }}>sh</span>.</h2>
+          <h2 className="footer-title">U<span style={{ color: '#FF007F' }}>ma</span>.</h2>
           <p>I am a frontend developer with extensive experience in web design and development.</p>
         </div>
         <div className="footer-subscribe">
@@ -297,7 +297,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2023 Naga Satish. All rights reserved.</p>
+        <p>© 2023 Vaka Uma. All rights reserved.</p>
         <div className="footer-links">
           <a href="#terms">Terms of Services</a>
           <a href="#privacy">Privacy Policy</a>
